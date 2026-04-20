@@ -99,3 +99,25 @@ Feature Analysis
 FEATURE_STABILITY.csv
 Breakpoint Analysis
 *_Break_Point_Analysis.csv
+
+
+Key Methodological Features
+Nested Cross-Validation → prevents overfitting
+Bootstrap Confidence Intervals → quantifies uncertainty
+DeLong Test → statistical comparison of AUC
+Decision Curve Analysis → evaluates practical utility
+Correlation Filtering + VIF → reduces multicollinearity
+SHAP Values → interpretable feature contributions
+Reproducibility
+Fixed random seed (random_state)
+Config-driven execution
+Environment dependencies specified
+All intermediate outputs saved
+Notes
+Designed for small datasets (n < 100) where overfitting risk is high
+Supports both prediction and mechanistic interpretation
+Particularly suited for environmental microbiology, water quality, and public health datasets
+Citation
+
+If used in a publication, please cite the associated manuscript and repository.
+
